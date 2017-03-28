@@ -7,6 +7,7 @@ import java.util.*;
 /**
  * Created by 8 on 28.03.2017.
  * Лекция с Виктором Бирюковым про использование листов
+ *
  */
 public class Main {
     public static void main(String[] args) {
@@ -30,9 +31,9 @@ public class Main {
         });
         System.out.println(persons);
 
-        System.out.println(PersonsUtils.getPersonCount(persons)); // без защиты от изменения объекта
-        System.out.println(PersonsUtils.getPersonCount(Collection.unmodifiableCollection(persons))); // с защитой
-        System.out.println(PersonsUtils.getPersonCount(new ArrayList<>(persons))); // с защитой
+        System.out.println(PersonsUtils.getPersonsCount(persons)); // без защиты от изменения объекта
+        System.out.println(PersonsUtils.getPersonsCount(Collection.unmodifiableCollection(persons))); // с защитой
+        System.out.println(PersonsUtils.getPersonsCount(new ArrayList<>(persons))); // с защитой
         System.out.println(persons);
         System.out.println(persons.size());
     }
