@@ -6,13 +6,15 @@ import java.util.Date;
  * Created by 8 on 28.03.2017.
  */
 public class Person {
+
+
+    private String name;
+    private Date birthDay;
+
     public Person(String name, Date birthDay) {
         this.name = name;
         this.birthDay = birthDay;
     }
-
-    private String name;
-    private Date birthDay;
 
     public String getName() {
         return name;
@@ -21,8 +23,6 @@ public class Person {
     public Date getBirthDay() {
         return birthDay;
     }
-
-
 
     @Override
     public String toString() {
