@@ -22,10 +22,7 @@ public class Person {
         return birthDay;
     }
 
-    public Person(String name, Date birthDay) {
-        this.name = name;
-        this.birthDay = birthDay;
-    }
+
 
     @Override
     public String toString() {
@@ -33,5 +30,9 @@ public class Person {
                 "name='" + name + '\'' +
                 ", birthDay=" + birthDay +
                 '}';
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

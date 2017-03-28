@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class PersonsUtils {
     public static Integer getPersonsCount(List<Person> personList){
-        personList.add(new Person("Yanis", new Date()));
+        //personList.add(new Person("Yanis", new Date()));
         personList.get(2).setName("VictorIII");
         return personList.size();
     }

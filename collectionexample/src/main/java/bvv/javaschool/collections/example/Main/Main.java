@@ -32,7 +32,7 @@ public class Main {
         System.out.println(persons);
 
         System.out.println(PersonsUtils.getPersonsCount(persons)); // без защиты от изменения объекта
-        System.out.println(PersonsUtils.getPersonsCount(Collection.unmodifiableCollection(persons))); // с защитой
+        System.out.println(PersonsUtils.getPersonsCount(Collections.unmodifiableList(persons))); // с защитой
         System.out.println(PersonsUtils.getPersonsCount(new ArrayList<>(persons))); // с защитой
         System.out.println(persons);
         System.out.println(persons.size());
