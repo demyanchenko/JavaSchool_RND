@@ -6,6 +6,7 @@ import java.util.*;
 
 /**
  * Created by 8 on 28.03.2017.
+ * Лекция с Виктором Бирюковым про использование листов
  */
 public class Main {
     public static void main(String[] args) {
