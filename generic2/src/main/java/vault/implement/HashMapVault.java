@@ -38,7 +38,7 @@ public class HashMapVault<K,V> implements UniVault<K,V> {
         return innerMap;
     }
 
-    public Collection<V> getAllByPredicate(Predicate<V> p) {
+    public Collection<V> getAllByPredicate(Predicate<? super V> p) {
         Collection<V> collection = new ArrayList<V>();
         for (V v : map.values()) {
             if (p.apply(v))
