@@ -9,7 +9,7 @@ import vault.developers.Developer;
 public class HighIqPredicate implements Predicate<Developer> {
     @Override
     public boolean apply(Developer elm) {
-        if (elm.getIq().compareTo(130) > 0)
+        if (elm.getIq().compareTo(120) > 0)
         return true;
 
         return false;

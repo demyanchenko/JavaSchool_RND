@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="collectionexample" />
+        <module name="exception1" />
         <module name="generic2" />
         <module name="javaschoolgenerics" />
         <module name="lesson3" />
         <module name="lesson4" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="collectionexample" target="1.5" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="collectionexample" target="1.8" />
+      <module name="exception1" target="1.8" />
       <module name="generic2" target="1.7" />
       <module name="javaschoolgenerics" target="1.7" />
       <module name="lesson1" target="1.7" />
