@@ -12,16 +12,20 @@
         <module name="javaschoolgenerics" />
         <module name="lesson3" />
         <module name="lesson4" />
+        <module name="reflection" />
+        <module name="Testing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
-      <module name="collectionexample" target="1.8" />
-      <module name="exception1" target="1.8" />
+      <module name="collectionexample" target="1.5" />
+      <module name="exception1" target="1.5" />
       <module name="generic2" target="1.7" />
       <module name="javaschoolgenerics" target="1.7" />
       <module name="lesson1" target="1.7" />
       <module name="lesson3" target="1.5" />
       <module name="lesson4" target="1.5" />
+      <module name="reflection" target="1.5" />
+      <module name="Testing" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
