@@ -10,6 +10,7 @@
         <module name="exception1" />
         <module name="generic2" />
         <module name="javaschoolgenerics" />
+        <module name="Lambda" />
         <module name="lesson3" />
         <module name="lesson4" />
         <module name="reflection" />
@@ -21,6 +22,7 @@
       <module name="exception1" target="1.5" />
       <module name="generic2" target="1.7" />
       <module name="javaschoolgenerics" target="1.7" />
+      <module name="Lambda" target="1.8" />
       <module name="lesson1" target="1.7" />
       <module name="lesson3" target="1.5" />
       <module name="lesson4" target="1.5" />
