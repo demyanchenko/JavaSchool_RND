@@ -14,8 +14,10 @@ public class Starter {
         apples.addAll(Arrays.asList(a1, a2, a3));
         // Для реализации можно было создать описание предикатов, но по новому мы описываем реализацию прям тут.
         // Лямда вообще соокращает описание реализации до одной строки
-        System.out.println(filterApple(apples, apple -> "green".equals(apple.getColor())));
         // Alt+enter - Replace with Lamda - переделывает в упрощённый код лямда.
+        // С использованием Лямды:
+        System.out.println(filterApple(apples, apple -> "green".equals(apple.getColor())));
+        // Без использования Лямды:
         System.out.println(filterApple(apples, new ApplePredicate() {
             @Override
             public boolean test(Apple apple) {
